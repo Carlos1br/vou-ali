@@ -1,0 +1,27 @@
+.navbar-brand img{
+    width: 150px;
+}
+.btn-primary{
+    background-color: #F57C00;
+    color:#fff;
+    border-color: #757575;
+}
+
+.btn-primary:hover{
+    background-color: #FF9800;
+    color: #fff;
+    border-color:#757575;
+}
+
+.bg-light{
+    background-color: #607D8B!important;
+}
+
+section{
+    min-height: 100vh;
+    padding: 100px 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
