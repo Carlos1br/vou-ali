@@ -1,6 +1,11 @@
 .navbar-brand img{
-    width: 150px;
+    width: 100px;
 }
+body{
+
+background-color: #FFE0B2;
+}
+
 .btn-primary{
     background-color: #F57C00;
     color:#fff;
@@ -24,4 +29,45 @@ section{
 
 html{
     scroll-behavior: smooth;
+}
+
+#banner img{
+    height: 600px;
+}
+
+#up{
+    width: 50px;
+    height: 50px;
+    right: 50px;;
+    bottom: 10%;
+    position: fixed;
+    border: 1px solid #000;
+    color: #FFE0B2;
+    background-image: url(../img/ico-up.png);
+    background-repeat: no-repeat;
+    background: cover;
+    z-index: 1;
+    border-radius: 30px;
+    text-align: center;
+    background-size: 100%;
+   
+    
+}
+
+#up a{
+    text-decoration: none;
+    color: #FFE0B2;
+    padding: 30px;
+}
+
+#up:hover{
+    transform: translate(0,-20px);
+    transition: 0.8s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.8;
+    cursor: pointer;
+    margin-top: 10px;
 }
