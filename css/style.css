@@ -71,3 +71,17 @@ html{
     cursor: pointer;
     margin-top: 10px;
 }
+
+#sobre p{
+    color: #212122;
+}
+
+.carousel-control-next{
+    background-color: #FFE0B2;
+    opacity: 1;
+}
+
+.carousel-control-prev{
+    background-color: #FFE0B2;
+    opacity: 1;
+}
